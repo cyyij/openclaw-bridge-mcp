@@ -1,0 +1,38 @@
+{
+  "name": "openclaw-bridge-mcp",
+  "version": "1.0.0",
+  "description": "MCP bridge for AI-to-AI communication — local OpenClaw + cross-machine HTTP",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "openclaw-bridge-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "install:all": "npm install"
+  },
+  "keywords": [
+    "mcp",
+    "openclaw",
+    "bridge",
+    "claude",
+    "cross-machine",
+    "ai-agent"
+  ],
+  "author": "cyyij",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyyij/openclaw-bridge-mcp.git"
+  },
+  "homepage": "https://github.com/cyyij/openclaw-bridge-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/cyyij/openclaw-bridge-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

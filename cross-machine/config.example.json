@@ -1,0 +1,8 @@
+{
+  "localName": "my-machine",
+  "port": 49168,
+  "peers": {
+    "alice": "100.x.x.x",
+    "bob": "100.x.x.x"
+  }
+}
